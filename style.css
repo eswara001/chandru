@@ -1,0 +1,325 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap') */
+
+/****** navbar ******/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oxygen", sans-serif;
+}
+
+#commerce{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 15px rgba(12, 12, 12, 0.549);
+    background-color: rgb(180, 211, 113);
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 720;
+    text-shadow: 2px 2px 4px #29f700;
+}
+
+#navbarSupportedContent a{
+    color: black;
+    font-size: 17px;
+}
+
+/* #navbarSupportedContent :hover a{
+    border: 1px solid lightseagreen;
+    border-radius: 16px;
+    font-weight: 700;
+    padding: 5px;
+    margin:5px;
+        
+} */
+
+/***** home ******/
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+#home p{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        padding-top: 120px;
+        font-size: 20px;
+        color: #fff;
+        text-shadow: 0px 1px 0px #167013,
+                    0px 2px 0px #167013,
+                    0px 3px 0px #167013,
+                    0px 4px 0px #167013,
+                    0px 5px 0px #167013;
+}
+
+#home h1{
+    position: absolute;
+    display: flex;
+    color: #fff;
+    font-size: 65px;
+    letter-spacing: 3px;
+    text-shadow: 0px 1px 0px #167013,
+                0px 2px 0px #167013,
+                0px 3px 0px #167013,
+                0px 4px 0px #167013,
+                0px 5px 0px #167013,
+                0px 6px 0px #167013,
+                0px 7px 0px #167013;
+}
+
+
+
+#home{
+    background-image:url("../images/main2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img{
+    display: flex;
+    position: relative;
+    height: fit-content;
+}
+
+.image{
+    border-radius: 25px;
+    display: flex;
+    margin-left: 26px;
+    margin-top: 90px;
+    align-items: center;
+}
+
+
+/***** About *****/
+
+#about{
+    background-color: #f8f8f8;
+    /* opacity: .8; */
+}
+
+/* #about ::backdrop{
+    
+} */
+
+#about h1{
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+#about p{
+    font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    text-align: left;
+    box-shadow: 2px 2px 10px #167013;
+    border: none;
+    border-radius: 16px;
+    padding: 15px;
+    margin-bottom: 8px;
+}
+
+.para b{
+    font-size: 5px;
+}
+
+/***** About2 *****/
+
+.image2{
+    border-radius: 25px;
+    margin-left: 35%;
+    top: 0;
+    /* opacity: .7; */
+    margin-top:10%;
+}
+
+#about2{
+    background-color: #dde0ec;
+}
+
+#about2 p{
+    font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 23%;
+    box-shadow: 2px 2px 10px #167013;
+    border-radius: 16px;
+    border: none;
+    padding: 15px;
+    width: 90%;
+}
+
+/******Product*******/
+
+#Product{
+    background-color: #e5e5e5;
+    height: 180vh !important;
+}
+
+#Product h1{
+    font: 50px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    top: 0;
+    display:block;
+}
+
+#Product img{
+    width: 300px;
+    height: 240px;
+
+}
+
+.card{
+    background: #e5e5e5 !important;
+    border: none !important;
+    border-radius: 20px !important;
+    box-shadow: 15px 20px 20px, 
+                inset 4px 4px 10px white !important;
+    overflow: hidden;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin:20px 60px;
+    top: 0;
+    transition: .2s;
+}
+
+#image7{ 
+    height: 200px;
+    width: 300px;
+}
+
+.card:hover{
+    box-shadow: inset 5px 5px 10px, 
+                inset -4px -4px 10px white !important;
+    transition: .2s;
+}
+
+/*****Contactus******/
+
+#ContactUS{
+    background-color: #a9c8bd6f;
+}
+
+#ContactUS h1{
+    font: 50px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: -5px;
+}
+.conimage{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.lastin{
+    /* background-color: #36725b6f; */
+    width: 80%;
+}
+
+#ContactUS form{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ContactUS input{
+    margin: 10px 0px;
+}
+
+#ContactUS textarea{
+    margin: 10px 0px;
+}
+
+#ContactUS button{
+    width: 100%;
+}
+
+#signup{
+   background-image: url("../images/sign2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+/* #sign{
+    background-color: #dde0ec;
+} */
+
+#sign form{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    padding: 25px;
+    width: 550px;
+    height: 100%;
+    border: none;
+    box-shadow: 2px 2px 10px #95cde0;
+}
+
+#formup label{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(102, 125, 143);
+}
+
+#formup input{
+    padding: 15px;
+    margin: 5px;
+    text-align: left;
+    border: none;
+    border-radius: 12px;
+} 
+
+#formup button{
+    width: 24%;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+#formup button{
+    color: #946f4c;
+    border-radius: 12px;
+}
+
+#formup button:hover{
+    background-color: #7abbcd;
+}
+
+#sign form:hover{
+    box-shadow: inset 5px 5px 10px  #a9c8bd6f, 
+                inset -4px -4px 10px #a9c8bd6f;
+    border-radius: 15px;
+}
